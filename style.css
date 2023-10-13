@@ -1,21 +1,20 @@
 @font-face {
-    font-family: "Giants-Bold";
-    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Bold.woff2")
-        format("woff2");
-    font-weight: 400;
+    font-family: "yg-jalnan";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+        format("woff");
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: "HakgyoansimWoojuR";
-    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2")
-        format("woff2");
+    font-family: "S-CoreDream-3Light";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
+        format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
-    /* font-family: "HakgyoansimWoojuR"; */
+    font-family: "S-CoreDream-3Light";
     font-weight: 300;
     font-size: 15px;
     line-height: 1.6;
@@ -116,11 +115,27 @@ a:hover {
     transform-origin: center top;
 }
 .hero-section h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: "yg-jalnan";
     color: #fff;
     font-size: 5vw;
     line-height: 1;
     font-weight: 900;
+    color: #fff;
+}
+#quote {
+    font-family: "yg-jalnan";
+    perspective: 400px;
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 900;
+    white-space: nowrap;
+}
+#quote > * {
+    color: #fff;
+    font-variation-settings: "wght" var(--weight);
+}
+.grid {
+    grid-template-columns: repeat(3, 1fr);
 }
 .hero-section p {
     font-size: 15px;
@@ -291,7 +306,7 @@ body.about-on .about-section {
     margin: 0 auto;
 }
 .about-section p span {
-    font-family: "Giants-Bold";
+    font-family: "yg-jalnan";
     letter-spacing: 1px;
     color: #866baf;
     font-size: 25px;
@@ -504,6 +519,7 @@ body.design-on .design-section {
 .wildlife-section h3,
 .design-section h3,
 .project-section h3 {
+    font-family: "yg-jalnan";
     font-size: 44px;
     line-height: 1.3;
     font-weight: 700;
@@ -515,6 +531,10 @@ body.design-on .design-section {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 1px;
+}
+.left-center {
+    display: flex;
+    justify-content: center;
 }
 .explain p {
     margin-left: 5px;
@@ -549,7 +569,7 @@ body.design-on .design-section {
 }
 .overlay h3 {
     font-size: 2rem;
-    font-family: "Giants-Bold";
+    font-family: "S-CoreDream-3Light";
     margin-bottom: 1rem;
 }
 .overlay > div div {
@@ -587,5 +607,17 @@ body.design-on .design-section {
     }
     .explain p {
         font-size: 14px;
+    }
+    .overlay h3 {
+        font-size: 1.2rem;
+        font-family: "S-CoreDream-3Light";
+        margin-bottom: 1rem;
+    }
+    .overlay > div div {
+        font-size: 1rem;
+    }
+    .caseimg img {
+        box-shadow: none;
+        width: calc(50% - 2rem);
     }
 }
