@@ -391,6 +391,7 @@ body.contact-on .contact-section {
     transform: rotate(90deg);
 }
 .contact-section a {
+    font-family: "yg-jalnan";
     margin: 0 auto;
     font-size: 32px;
     font-weight: 900;
@@ -399,6 +400,7 @@ body.contact-on .contact-section {
     display: inline-block;
 }
 .contact-section .social a {
+    font-family: "S-CoreDream-3Light";
     margin-left: 8px;
     margin-right: 8px;
     font-size: 15px;
